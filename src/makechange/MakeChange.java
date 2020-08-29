@@ -26,4 +26,11 @@ public class MakeChange {
 		
 		kb.close();
 	}
+	
+	public static void noChange() {
+		System.out.println("Balance owed $0. Thank you and have a wonderful day.");
+	}
+	public static void errorMessage() {
+		System.out.println("The amount tendered does not meet the required cost. Please provide sufficient funds.");
+	}
 }
