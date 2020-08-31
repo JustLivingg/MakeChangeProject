@@ -30,10 +30,7 @@ public class MakeChange {
 
 		changeBack = getValidTender(price);
 
-		if (changeBack < 0) {
-			errorMessage();
-		}
-
+	
 		if (changeBack == 0) {
 			noChange();
 		}
@@ -139,7 +136,7 @@ public class MakeChange {
 		double changeBack = tender - priceArg;
 
 		if (changeBack < 0) {
-			System.out.println("Please provide sufficient tender. ");
+			errorMessage();
 			return getValidTender(priceArg);
 		} else {
 			return changeBack;
