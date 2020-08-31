@@ -2,7 +2,7 @@
 
 ### Overwiew
 
-Created a cash register for homework project 1. 
+Created a cash register for homework project 1.
 
 ### Topics
 * Taking User Input

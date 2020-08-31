@@ -99,6 +99,9 @@ public class MakeChange {
 			if (quarters > 0) {
 				System.out.print("***  $0.25: " + quarters + " ***" + "\n");
 			}
+			if (dimes > 0) {
+				System.out.print("***  $0.10: " + dimes + " ***" + "\n");
+			}
 
 			if (nickles > 0) {
 				System.out.print("***  $0.05: " + nickles + " ***" + "\n");
